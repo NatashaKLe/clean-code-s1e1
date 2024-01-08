@@ -14,31 +14,31 @@
     href="https://goal-life.com/page/method/matrix-eisenhower">Want more details?</a>
   </div>
   <div class="main">
-    <p id="add-item"><label for="new-task">Add Item</label>
+    <p id="add-item"><label class="add-item-label" for="new-task">Add Item</label>
     <div class="wrapper">
       <input id="new-task" class="task">
-      <button>Add</button>
+      <button class="button-add">Add</button>
     </div>
     </p>
-    <h3>Todo</h3>
-    <ul id="incomplete-tasks">
-      <li>
-        <input type="checkbox"><label class="task">Pay Bills</label>
+    <h3 class="heading">Todo</h3>
+    <ul id="incomplete-tasks" class="tasks">
+      <li class="tasks-wrapper">
+        <input type="checkbox" class="checkbox"><label class="task">Pay Bills</label>
         <input type="text" class="task">
         <button class="edit">Edit</button>
         <button class="delete"><img src="./remove.svg"></button>
       </li>
-      <li class="edit-mode">
-        <input type="checkbox"><label class="task">Go Shopping</label>
+      <li class="tasks-wrapper edit-mode">
+        <input type="checkbox" class="checkbox"><label class="task">Go Shopping</label>
         <input type="text" value="Go Shopping" class="task">
         <button class="edit">Save</button>
-        <button class="delete"><img rc="./remove.svg"></button>
+        <button class="delete"><img src="./remove.svg"></button>
       </li>
     </ul>
-    <h3>Completed</h3>
-    <ul id="completed-tasks">
-      <li>
-        <input type="checkbox" checked><label class="task">See the Doctor</label>
+    <h3 class="heading">Completed</h3>
+    <ul id="completed-tasks" class="tasks">
+      <li class="tasks-wrapper">
+        <input type="checkbox" class="checkbox" checked><label class="task">See the Doctor</label>
         <input type="text" class="task">
         <button class="edit">Edit</button>
         <button class="delete"><img src="./remove.svg"></button>
