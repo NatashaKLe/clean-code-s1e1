@@ -36,18 +36,18 @@ body {
   display: flex;
 }
 .tasks {
-  margin:0;
+  margin: 0;
   padding: 0px;
 }
 li,
 .heading {
-  list-style:none;
+  list-style: none;
 }
 input,
 .edit,
 .delete,
 .button-add{
-  outline:none;
+  outline: none;
 }
 .edit,
 .delete,
@@ -147,14 +147,14 @@ input#new-task {
 
 /* Edit Task */
 .tasks .tasks-wrapper input[type=text] {
-  display:none
+  display: none
 }
 
 .tasks .edit-mode input[type=text] {
-  display:inline-block;
-  width:224px
+  display: inline-block;
+  width: 224px
 }
 
 .tasks .edit-mode label {
-  display:none;
+  display: none;
 }
